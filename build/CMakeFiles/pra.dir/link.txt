@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libpra.a  CMakeFiles/pra.dir/include/dmformat.cc.o CMakeFiles/pra.dir/include/dmostream.cc.o CMakeFiles/pra.dir/include/dmposix.cc.o CMakeFiles/pra.dir/src/test.pb.cc.o
+/usr/bin/ranlib ../lib/libpra.a

@@ -618,9 +618,9 @@ google/protobuf/io/coded_stream.h
 google/protobuf/arenastring.h
 -
 
-/root/pra/include/dmformat.cc
+/root/dmprotobuftest/include/dmformat.cc
 dmformat.h
-/root/pra/include/dmformat.h
+/root/dmprotobuftest/include/dmformat.h
 string.h
 -
 cctype
@@ -642,7 +642,7 @@ windows.h
 windows.h
 -
 
-/root/pra/include/dmformat.h
+/root/dmprotobuftest/include/dmformat.h
 cassert
 -
 clocale
@@ -666,7 +666,7 @@ vector
 utility
 -
 dmtypes.h
-/root/pra/include/dmtypes.h
+/root/dmprotobuftest/include/dmtypes.h
 iterator
 -
 utility
@@ -674,23 +674,23 @@ utility
 intrin.h
 -
 dmformat.cc
-/root/pra/include/dmformat.cc
+/root/dmprotobuftest/include/dmformat.cc
 
-/root/pra/include/dmostream.cc
+/root/dmprotobuftest/include/dmostream.cc
 dmostream.h
-/root/pra/include/dmostream.h
+/root/dmprotobuftest/include/dmostream.h
 
-/root/pra/include/dmostream.h
+/root/dmprotobuftest/include/dmostream.h
 dmformat.h
-/root/pra/include/dmformat.h
+/root/dmprotobuftest/include/dmformat.h
 ostream
 -
 dmostream.cc
-/root/pra/include/dmostream.cc
+/root/dmprotobuftest/include/dmostream.cc
 
-/root/pra/include/dmposix.cc
+/root/dmprotobuftest/include/dmposix.cc
 dmposix.h
-/root/pra/include/dmposix.h
+/root/dmprotobuftest/include/dmposix.h
 limits.h
 -
 sys/types.h
@@ -704,7 +704,7 @@ windows.h
 io.h
 -
 
-/root/pra/include/dmposix.h
+/root/dmprotobuftest/include/dmposix.h
 errno.h
 -
 fcntl.h
@@ -720,13 +720,13 @@ cstddef
 xlocale.h
 -
 dmformat.h
-/root/pra/include/dmformat.h
+/root/dmprotobuftest/include/dmformat.h
 
-/root/pra/include/dmtypes.h
+/root/dmprotobuftest/include/dmtypes.h
 msinttypes/stdint.h
-/root/pra/include/msinttypes/stdint.h
+/root/dmprotobuftest/include/msinttypes/stdint.h
 msinttypes/inttypes.h
-/root/pra/include/msinttypes/inttypes.h
+/root/dmprotobuftest/include/msinttypes/inttypes.h
 stdint.h
 -
 inttypes.h
@@ -734,13 +734,13 @@ inttypes.h
 sys/time.h
 -
 
-/root/pra/include/msinttypes/inttypes.h
+/root/dmprotobuftest/include/msinttypes/inttypes.h
 stdint.h
-/root/pra/include/msinttypes/stdint.h
+/root/dmprotobuftest/include/msinttypes/stdint.h
 inttypes.h
 -
 
-/root/pra/include/msinttypes/stdint.h
+/root/dmprotobuftest/include/msinttypes/stdint.h
 stdint.h
 -
 limits.h
@@ -748,9 +748,9 @@ limits.h
 wchar.h
 -
 
-/root/pra/src/test.pb.cc
+/root/dmprotobuftest/src/test.pb.cc
 test.pb.h
-/root/pra/src/test.pb.h
+/root/dmprotobuftest/src/test.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -772,9 +772,9 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 third_party/protobuf/version.h
-/root/pra/src/third_party/protobuf/version.h
+/root/dmprotobuftest/src/third_party/protobuf/version.h
 
-/root/pra/src/test.pb.h
+/root/dmprotobuftest/src/test.pb.h
 string
 -
 google/protobuf/stubs/common.h

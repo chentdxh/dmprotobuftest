@@ -346,7 +346,7 @@ utility
 google/protobuf/stubs/template_util.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/main.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/main.cc
 google/protobuf/compiler/command_line_interface.h
 -
 google/protobuf/compiler/cpp/cpp_generator.h

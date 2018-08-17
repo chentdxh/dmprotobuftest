@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/pra
+CMAKE_SOURCE_DIR = /root/dmprotobuftest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/pra/build
+CMAKE_BINARY_DIR = /root/dmprotobuftest/build
 
 # Include any dependencies generated for this target.
 include dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/depend.make
@@ -59,16 +59,16 @@ include dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o: ../dmprotobuf/src/google/protobuf/arena.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/arena.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/arena.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/arena.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/arena.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/arena.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/arena.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc.o.requires:
 
@@ -83,16 +83,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arena.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o: ../dmprotobuf/src/google/protobuf/arenastring.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/arenastring.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/arenastring.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/arenastring.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/arenastring.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/arenastring.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/arenastring.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastring.cc.o.requires:
 
@@ -107,16 +107,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/arenastr
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o: ../dmprotobuf/src/google/protobuf/extension_set.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/extension_set.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/extension_set.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/extension_set.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/extension_set.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/extension_set.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/extension_set.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extension_set.cc.o.requires:
 
@@ -131,16 +131,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/extensio
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o: ../dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/generated_message_table_driven_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_table_driven_lite.cc.o.requires:
 
@@ -155,16 +155,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generate
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o: ../dmprotobuf/src/google/protobuf/generated_message_util.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/generated_message_util.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/generated_message_util.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/generated_message_util.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/generated_message_util.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/generated_message_util.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/generated_message_util.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generated_message_util.cc.o.requires:
 
@@ -179,16 +179,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/generate
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o: ../dmprotobuf/src/google/protobuf/io/coded_stream.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/io/coded_stream.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/coded_stream.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/io/coded_stream.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/coded_stream.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/io/coded_stream.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/coded_stream.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded_stream.cc.o.requires:
 
@@ -203,16 +203,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/coded
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o: ../dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/zero_copy_stream.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream.cc.o.requires:
 
@@ -227,16 +227,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o: ../dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/io/zero_copy_stream_impl_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_copy_stream_impl_lite.cc.o.requires:
 
@@ -251,16 +251,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/io/zero_
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o: ../dmprotobuf/src/google/protobuf/message_lite.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/message_lite.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/message_lite.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/message_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/message_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/message_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/message_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_lite.cc.o.requires:
 
@@ -275,16 +275,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/message_
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o: ../dmprotobuf/src/google/protobuf/repeated_field.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/repeated_field.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/repeated_field.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/repeated_field.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/repeated_field.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/repeated_field.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/repeated_field.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated_field.cc.o.requires:
 
@@ -299,16 +299,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/repeated
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o: ../dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_gcc.cc.o.requires:
 
@@ -323,16 +323,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/at
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o: ../dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/atomicops_internals_x86_msvc.cc.o.requires:
 
@@ -347,16 +347,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/at
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o: ../dmprotobuf/src/google/protobuf/stubs/bytestream.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/bytestream.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/bytestream.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/bytestream.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/bytestream.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/bytestream.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/bytestream.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/bytestream.cc.o.requires:
 
@@ -371,16 +371,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/by
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o: ../dmprotobuf/src/google/protobuf/stubs/common.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/common.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/common.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/common.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/common.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/common.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/common.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/common.cc.o.requires:
 
@@ -395,16 +395,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/co
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o: ../dmprotobuf/src/google/protobuf/stubs/int128.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/int128.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/int128.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/int128.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/int128.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/int128.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/int128.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/int128.cc.o.requires:
 
@@ -419,16 +419,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/in
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o: ../dmprotobuf/src/google/protobuf/stubs/io_win32.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/io_win32.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/io_win32.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/io_win32.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/io_win32.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/io_win32.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/io_win32.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io_win32.cc.o.requires:
 
@@ -443,16 +443,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/io
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o: ../dmprotobuf/src/google/protobuf/stubs/once.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/once.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/once.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/once.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/once.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/once.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/once.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/once.cc.o.requires:
 
@@ -467,16 +467,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/on
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o: ../dmprotobuf/src/google/protobuf/stubs/status.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/status.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/status.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/status.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/status.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/status.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/status.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/status.cc.o.requires:
 
@@ -491,16 +491,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/st
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o: ../dmprotobuf/src/google/protobuf/stubs/statusor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/statusor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/statusor.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/statusor.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/statusor.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/statusor.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/statusor.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/statusor.cc.o.requires:
 
@@ -515,16 +515,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/st
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o: ../dmprotobuf/src/google/protobuf/stubs/stringpiece.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/stringpiece.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/stringpiece.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/stringpiece.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/stringpiece.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/stringpiece.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/stringpiece.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringpiece.cc.o.requires:
 
@@ -539,16 +539,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/st
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o: ../dmprotobuf/src/google/protobuf/stubs/stringprintf.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/stringprintf.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/stringprintf.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/stringprintf.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/stringprintf.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/stringprintf.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/stringprintf.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/stringprintf.cc.o.requires:
 
@@ -563,16 +563,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/st
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o: ../dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/structurally_valid.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/structurally_valid.cc.o.requires:
 
@@ -587,16 +587,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/st
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o: ../dmprotobuf/src/google/protobuf/stubs/strutil.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/strutil.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/strutil.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/strutil.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/strutil.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/strutil.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/strutil.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/strutil.cc.o.requires:
 
@@ -611,16 +611,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/st
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o: ../dmprotobuf/src/google/protobuf/stubs/time.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/stubs/time.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/time.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/stubs/time.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/time.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/stubs/time.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/stubs/time.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/time.cc.o.requires:
 
@@ -635,16 +635,16 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/stubs/ti
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/flags.make
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o: ../dmprotobuf/src/google/protobuf/wire_format_lite.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o -c /root/pra/dmprotobuf/src/google/protobuf/wire_format_lite.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o -c /root/dmprotobuftest/dmprotobuf/src/google/protobuf/wire_format_lite.cc
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.i"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/dmprotobuf/src/google/protobuf/wire_format_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.i
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/dmprotobuf/src/google/protobuf/wire_format_lite.cc > CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.i
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.s"
-	cd /root/pra/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/dmprotobuf/src/google/protobuf/wire_format_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.s
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/dmprotobuf/src/google/protobuf/wire_format_lite.cc -o CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.s
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o.requires:
 
@@ -715,9 +715,9 @@ libprotobuf__lite_EXTERNAL_OBJECTS =
 ../dmprotobuf/lib/libprotobuf-lite.a: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/__/src/google/protobuf/wire_format_lite.cc.o
 ../dmprotobuf/lib/libprotobuf-lite.a: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/build.make
 ../dmprotobuf/lib/libprotobuf-lite.a: dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library ../../../dmprotobuf/lib/libprotobuf-lite.a"
-	cd /root/pra/build/dmprotobuf/cmake && $(CMAKE_COMMAND) -P CMakeFiles/libprotobuf-lite.dir/cmake_clean_target.cmake
-	cd /root/pra/build/dmprotobuf/cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libprotobuf-lite.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library ../../../dmprotobuf/lib/libprotobuf-lite.a"
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && $(CMAKE_COMMAND) -P CMakeFiles/libprotobuf-lite.dir/cmake_clean_target.cmake
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libprotobuf-lite.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/build: ../dmprotobuf/lib/libprotobuf-lite.a
@@ -753,10 +753,10 @@ dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/requires: dmprotobuf/cmake/CMak
 .PHONY : dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/requires
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/clean:
-	cd /root/pra/build/dmprotobuf/cmake && $(CMAKE_COMMAND) -P CMakeFiles/libprotobuf-lite.dir/cmake_clean.cmake
+	cd /root/dmprotobuftest/build/dmprotobuf/cmake && $(CMAKE_COMMAND) -P CMakeFiles/libprotobuf-lite.dir/cmake_clean.cmake
 .PHONY : dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/clean
 
 dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/depend:
-	cd /root/pra/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/pra /root/pra/dmprotobuf/cmake /root/pra/build /root/pra/build/dmprotobuf/cmake /root/pra/build/dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dmprotobuftest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dmprotobuftest /root/dmprotobuftest/dmprotobuf/cmake /root/dmprotobuftest/build /root/dmprotobuftest/build/dmprotobuf/cmake /root/dmprotobuftest/build/dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dmprotobuf/cmake/CMakeFiles/libprotobuf-lite.dir/depend
 

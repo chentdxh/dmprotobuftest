@@ -1,1 +1,1 @@
-/usr/bin/c++    -std=c++11 -pthread -O2 -g -DNDEBUG   CMakeFiles/js_embed.dir/__/src/google/protobuf/compiler/js/embed.cc.o  -o ../../../dmprotobuf/bin/js_embed  -L/root/pra/dmprotobuf/cmake/../lib -rdynamic 
+/usr/bin/c++    -std=c++11 -pthread -O2 -g -DNDEBUG   CMakeFiles/js_embed.dir/__/src/google/protobuf/compiler/js/embed.cc.o  -o ../../../dmprotobuf/bin/js_embed  -L/root/dmprotobuftest/dmprotobuf/cmake/../lib -rdynamic 

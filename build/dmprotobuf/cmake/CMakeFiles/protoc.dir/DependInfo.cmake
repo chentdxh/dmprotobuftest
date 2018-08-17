@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/pra/dmprotobuf/src/google/protobuf/compiler/main.cc" "/root/pra/build/dmprotobuf/cmake/CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o"
+  "/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/main.cc" "/root/dmprotobuftest/build/dmprotobuf/cmake/CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,8 +23,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/root/pra/build/dmprotobuf/cmake/CMakeFiles/libprotobuf.dir/DependInfo.cmake"
-  "/root/pra/build/dmprotobuf/cmake/CMakeFiles/libprotoc.dir/DependInfo.cmake"
+  "/root/dmprotobuftest/build/dmprotobuf/cmake/CMakeFiles/libprotobuf.dir/DependInfo.cmake"
+  "/root/dmprotobuftest/build/dmprotobuf/cmake/CMakeFiles/libprotoc.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

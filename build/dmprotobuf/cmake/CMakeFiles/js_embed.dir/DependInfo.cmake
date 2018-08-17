@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/pra/dmprotobuf/src/google/protobuf/compiler/js/embed.cc" "/root/pra/build/dmprotobuf/cmake/CMakeFiles/js_embed.dir/__/src/google/protobuf/compiler/js/embed.cc.o"
+  "/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/js/embed.cc" "/root/dmprotobuftest/build/dmprotobuf/cmake/CMakeFiles/js_embed.dir/__/src/google/protobuf/compiler/js/embed.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

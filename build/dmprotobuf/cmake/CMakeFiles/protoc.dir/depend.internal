@@ -40,4 +40,4 @@ dmprotobuf/cmake/CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o
  ../dmprotobuf/src/google/protobuf/stubs/shared_ptr.h
  ../dmprotobuf/src/google/protobuf/stubs/template_util.h
  ../dmprotobuf/src/google/protobuf/stubs/type_traits.h
- /root/pra/dmprotobuf/src/google/protobuf/compiler/main.cc
+ /root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/main.cc

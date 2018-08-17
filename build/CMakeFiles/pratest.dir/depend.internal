@@ -54,4 +54,4 @@ CMakeFiles/pratest.dir/test/pratest.cpp.o
  ../dmprotobuf/src/google/protobuf/wire_format_lite.h
  ../dmprotobuf/src/google/protobuf/wire_format_lite_inl.h
  ../src/test.pb.h
- /root/pra/test/pratest.cpp
+ /root/dmprotobuftest/test/pratest.cpp

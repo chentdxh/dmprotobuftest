@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -pthread -O2 -g -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/root/pra -I/root/pra/include -I/root/pra/src -I/root/pra/dmprotobuf/src -I/root/pra/dmprotobuf -I/root/pra/test 
+CXX_INCLUDES = -I/root/dmprotobuftest -I/root/dmprotobuftest/include -I/root/dmprotobuftest/src -I/root/dmprotobuftest/dmprotobuf/src -I/root/dmprotobuftest/dmprotobuf -I/root/dmprotobuftest/test 
 

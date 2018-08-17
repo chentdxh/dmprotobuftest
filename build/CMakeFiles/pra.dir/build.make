@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/pra
+CMAKE_SOURCE_DIR = /root/dmprotobuftest
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/pra/build
+CMAKE_BINARY_DIR = /root/dmprotobuftest/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pra.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/pra.dir/flags.make
 
 CMakeFiles/pra.dir/include/dmformat.cc.o: CMakeFiles/pra.dir/flags.make
 CMakeFiles/pra.dir/include/dmformat.cc.o: ../include/dmformat.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pra.dir/include/dmformat.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/include/dmformat.cc.o -c /root/pra/include/dmformat.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pra.dir/include/dmformat.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/include/dmformat.cc.o -c /root/dmprotobuftest/include/dmformat.cc
 
 CMakeFiles/pra.dir/include/dmformat.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pra.dir/include/dmformat.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/include/dmformat.cc > CMakeFiles/pra.dir/include/dmformat.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/include/dmformat.cc > CMakeFiles/pra.dir/include/dmformat.cc.i
 
 CMakeFiles/pra.dir/include/dmformat.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pra.dir/include/dmformat.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/include/dmformat.cc -o CMakeFiles/pra.dir/include/dmformat.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/include/dmformat.cc -o CMakeFiles/pra.dir/include/dmformat.cc.s
 
 CMakeFiles/pra.dir/include/dmformat.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/pra.dir/include/dmformat.cc.o.provides.build: CMakeFiles/pra.dir/incl
 
 CMakeFiles/pra.dir/include/dmostream.cc.o: CMakeFiles/pra.dir/flags.make
 CMakeFiles/pra.dir/include/dmostream.cc.o: ../include/dmostream.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pra.dir/include/dmostream.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/include/dmostream.cc.o -c /root/pra/include/dmostream.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pra.dir/include/dmostream.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/include/dmostream.cc.o -c /root/dmprotobuftest/include/dmostream.cc
 
 CMakeFiles/pra.dir/include/dmostream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pra.dir/include/dmostream.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/include/dmostream.cc > CMakeFiles/pra.dir/include/dmostream.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/include/dmostream.cc > CMakeFiles/pra.dir/include/dmostream.cc.i
 
 CMakeFiles/pra.dir/include/dmostream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pra.dir/include/dmostream.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/include/dmostream.cc -o CMakeFiles/pra.dir/include/dmostream.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/include/dmostream.cc -o CMakeFiles/pra.dir/include/dmostream.cc.s
 
 CMakeFiles/pra.dir/include/dmostream.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/pra.dir/include/dmostream.cc.o.provides.build: CMakeFiles/pra.dir/inc
 
 CMakeFiles/pra.dir/include/dmposix.cc.o: CMakeFiles/pra.dir/flags.make
 CMakeFiles/pra.dir/include/dmposix.cc.o: ../include/dmposix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pra.dir/include/dmposix.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/include/dmposix.cc.o -c /root/pra/include/dmposix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pra.dir/include/dmposix.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/include/dmposix.cc.o -c /root/dmprotobuftest/include/dmposix.cc
 
 CMakeFiles/pra.dir/include/dmposix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pra.dir/include/dmposix.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/include/dmposix.cc > CMakeFiles/pra.dir/include/dmposix.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/include/dmposix.cc > CMakeFiles/pra.dir/include/dmposix.cc.i
 
 CMakeFiles/pra.dir/include/dmposix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pra.dir/include/dmposix.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/include/dmposix.cc -o CMakeFiles/pra.dir/include/dmposix.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/include/dmposix.cc -o CMakeFiles/pra.dir/include/dmposix.cc.s
 
 CMakeFiles/pra.dir/include/dmposix.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/pra.dir/include/dmposix.cc.o.provides.build: CMakeFiles/pra.dir/inclu
 
 CMakeFiles/pra.dir/src/test.pb.cc.o: CMakeFiles/pra.dir/flags.make
 CMakeFiles/pra.dir/src/test.pb.cc.o: ../src/test.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pra.dir/src/test.pb.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/src/test.pb.cc.o -c /root/pra/src/test.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pra.dir/src/test.pb.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pra.dir/src/test.pb.cc.o -c /root/dmprotobuftest/src/test.pb.cc
 
 CMakeFiles/pra.dir/src/test.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pra.dir/src/test.pb.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/pra/src/test.pb.cc > CMakeFiles/pra.dir/src/test.pb.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/dmprotobuftest/src/test.pb.cc > CMakeFiles/pra.dir/src/test.pb.cc.i
 
 CMakeFiles/pra.dir/src/test.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pra.dir/src/test.pb.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/pra/src/test.pb.cc -o CMakeFiles/pra.dir/src/test.pb.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/dmprotobuftest/src/test.pb.cc -o CMakeFiles/pra.dir/src/test.pb.cc.s
 
 CMakeFiles/pra.dir/src/test.pb.cc.o.requires:
 
@@ -169,7 +169,7 @@ pra_EXTERNAL_OBJECTS =
 ../lib/libpra.a: CMakeFiles/pra.dir/src/test.pb.cc.o
 ../lib/libpra.a: CMakeFiles/pra.dir/build.make
 ../lib/libpra.a: CMakeFiles/pra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/pra/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/libpra.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/dmprotobuftest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/libpra.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/pra.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pra.dir/link.txt --verbose=$(VERBOSE)
 
@@ -190,6 +190,6 @@ CMakeFiles/pra.dir/clean:
 .PHONY : CMakeFiles/pra.dir/clean
 
 CMakeFiles/pra.dir/depend:
-	cd /root/pra/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/pra /root/pra /root/pra/build /root/pra/build /root/pra/build/CMakeFiles/pra.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/dmprotobuftest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/dmprotobuftest /root/dmprotobuftest /root/dmprotobuftest/build /root/dmprotobuftest/build /root/dmprotobuftest/build/CMakeFiles/pra.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pra.dir/depend
 

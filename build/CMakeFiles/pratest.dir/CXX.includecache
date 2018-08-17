@@ -600,7 +600,7 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 
-/root/pra/test/pratest.cpp
+/root/dmprotobuftest/test/pratest.cpp
 iostream
 -
 sys/socket.h
@@ -618,5 +618,5 @@ pthread.h
 fstream
 -
 test.pb.h
-/root/pra/test/test.pb.h
+/root/dmprotobuftest/test/test.pb.h
 

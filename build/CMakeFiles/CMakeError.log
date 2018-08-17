@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /root/pra/build/CMakeFiles/CMakeTmp
+Change Dir: /root/dmprotobuftest/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_2e934/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_2e934.dir/build.make CMakeFiles/cmTC_2e934.dir/build
-gmake[1]: Entering directory `/root/pra/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2e934.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_2e934.dir/CheckSymbolExists.c.o   -c /root/pra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2e934
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e934.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2e934.dir/CheckSymbolExists.c.o  -o cmTC_2e934 -rdynamic 
-CMakeFiles/cmTC_2e934.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/gmake" "cmTC_4b608/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4b608.dir/build.make CMakeFiles/cmTC_4b608.dir/build
+gmake[1]: Entering directory `/root/dmprotobuftest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b608.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_4b608.dir/CheckSymbolExists.c.o   -c /root/dmprotobuftest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4b608
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b608.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_4b608.dir/CheckSymbolExists.c.o  -o cmTC_4b608 -rdynamic 
+CMakeFiles/cmTC_4b608.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [cmTC_2e934] Error 1
-gmake[1]: Leaving directory `/root/pra/build/CMakeFiles/CMakeTmp'
-gmake: *** [cmTC_2e934/fast] Error 2
+gmake[1]: *** [cmTC_4b608] Error 1
+gmake[1]: Leaving directory `/root/dmprotobuftest/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_4b608/fast] Error 2
 
-File /root/pra/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /root/dmprotobuftest/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -32,20 +32,20 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /root/pra/build/CMakeFiles/CMakeTmp
+Change Dir: /root/dmprotobuftest/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_cd88d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_cd88d.dir/build.make CMakeFiles/cmTC_cd88d.dir/build
-gmake[1]: Entering directory `/root/pra/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cd88d.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cd88d.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cd88d
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd88d.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cd88d.dir/CheckFunctionExists.c.o  -o cmTC_cd88d -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/gmake" "cmTC_ba0c8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ba0c8.dir/build.make CMakeFiles/cmTC_ba0c8.dir/build
+gmake[1]: Entering directory `/root/dmprotobuftest/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba0c8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ba0c8.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.6/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba0c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba0c8.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ba0c8.dir/CheckFunctionExists.c.o  -o cmTC_ba0c8 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [cmTC_cd88d] Error 1
-gmake[1]: Leaving directory `/root/pra/build/CMakeFiles/CMakeTmp'
-gmake: *** [cmTC_cd88d/fast] Error 2
+gmake[1]: *** [cmTC_ba0c8] Error 1
+gmake[1]: Leaving directory `/root/dmprotobuftest/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ba0c8/fast] Error 2
 
 

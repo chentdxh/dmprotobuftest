@@ -1778,7 +1778,7 @@ google/protobuf/io/coded_stream.h
 google/protobuf/arenastring.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/code_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/code_generator.cc
 google/protobuf/compiler/code_generator.h
 -
 google/protobuf/compiler/plugin.pb.h
@@ -1792,7 +1792,7 @@ google/protobuf/descriptor.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/command_line_interface.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/command_line_interface.cc
 google/protobuf/compiler/command_line_interface.h
 -
 google/protobuf/stubs/platform_macros.h
@@ -1862,7 +1862,7 @@ google/protobuf/stubs/stl_util.h
 google/protobuf/stubs/io_win32.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_enum.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_enum.cc
 map
 -
 google/protobuf/compiler/cpp/cpp_enum.h
@@ -1874,7 +1874,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_enum_field.cc
 google/protobuf/compiler/cpp/cpp_enum_field.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
@@ -1886,7 +1886,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_extension.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_extension.cc
 google/protobuf/compiler/cpp/cpp_extension.h
 -
 map
@@ -1900,7 +1900,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_field.cc
 google/protobuf/compiler/cpp/cpp_field.h
 -
 memory
@@ -1932,7 +1932,7 @@ google/protobuf/stubs/common.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_file.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_file.cc
 google/protobuf/compiler/cpp/cpp_file.h
 -
 map
@@ -1964,7 +1964,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_generator.cc
 google/protobuf/compiler/cpp/cpp_generator.h
 -
 vector
@@ -1988,7 +1988,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_helpers.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_helpers.cc
 google/protobuf/stubs/hash.h
 -
 limits
@@ -2012,7 +2012,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_map_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_map_field.cc
 google/protobuf/compiler/cpp/cpp_map_field.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
@@ -2024,7 +2024,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_message.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_message.cc
 google/protobuf/compiler/cpp/cpp_message.h
 -
 algorithm
@@ -2070,7 +2070,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_message_field.cc
 google/protobuf/compiler/cpp/cpp_message_field.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
@@ -2080,13 +2080,13 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_padding_optimizer.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_padding_optimizer.cc
 google/protobuf/compiler/cpp/cpp_padding_optimizer.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_primitive_field.cc
 google/protobuf/compiler/cpp/cpp_primitive_field.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
@@ -2098,7 +2098,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_service.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_service.cc
 google/protobuf/compiler/cpp/cpp_service.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
@@ -2108,7 +2108,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_string_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/cpp/cpp_string_field.cc
 google/protobuf/compiler/cpp/cpp_string_field.h
 -
 google/protobuf/compiler/cpp/cpp_helpers.h
@@ -2120,7 +2120,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_doc_comment.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_doc_comment.cc
 google/protobuf/compiler/csharp/csharp_doc_comment.h
 -
 google/protobuf/descriptor.h
@@ -2130,7 +2130,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_enum.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_enum.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2156,7 +2156,7 @@ google/protobuf/compiler/csharp/csharp_helpers.h
 google/protobuf/compiler/csharp/csharp_options.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_enum_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_enum_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2178,7 +2178,7 @@ google/protobuf/compiler/csharp/csharp_options.h
 google/protobuf/compiler/csharp/csharp_enum_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_field_base.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_field_base.cc
 limits
 -
 sstream
@@ -2210,7 +2210,7 @@ google/protobuf/compiler/csharp/csharp_helpers.h
 google/protobuf/compiler/csharp/csharp_names.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_generator.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2238,7 +2238,7 @@ google/protobuf/compiler/csharp/csharp_options.h
 google/protobuf/compiler/csharp/csharp_reflection_class.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_helpers.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_helpers.cc
 algorithm
 -
 google/protobuf/stubs/hash.h
@@ -2282,7 +2282,7 @@ google/protobuf/compiler/csharp/csharp_repeated_primitive_field.h
 google/protobuf/compiler/csharp/csharp_wrapper_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_map_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_map_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2306,7 +2306,7 @@ google/protobuf/compiler/csharp/csharp_helpers.h
 google/protobuf/compiler/csharp/csharp_map_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_message.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_message.cc
 sstream
 -
 algorithm
@@ -2344,7 +2344,7 @@ google/protobuf/compiler/csharp/csharp_message.h
 google/protobuf/compiler/csharp/csharp_names.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_message_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2370,7 +2370,7 @@ google/protobuf/compiler/csharp/csharp_message_field.h
 google/protobuf/compiler/csharp/csharp_options.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_primitive_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_primitive_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2396,7 +2396,7 @@ google/protobuf/compiler/csharp/csharp_options.h
 google/protobuf/compiler/csharp/csharp_primitive_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_reflection_class.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_reflection_class.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2426,7 +2426,7 @@ google/protobuf/compiler/csharp/csharp_options.h
 google/protobuf/compiler/csharp/csharp_reflection_class.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_repeated_enum_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_repeated_enum_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2450,7 +2450,7 @@ google/protobuf/compiler/csharp/csharp_helpers.h
 google/protobuf/compiler/csharp/csharp_repeated_enum_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_repeated_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_repeated_message_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2476,7 +2476,7 @@ google/protobuf/compiler/csharp/csharp_message_field.h
 google/protobuf/compiler/csharp/csharp_wrapper_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_repeated_primitive_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_repeated_primitive_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2500,7 +2500,7 @@ google/protobuf/compiler/csharp/csharp_helpers.h
 google/protobuf/compiler/csharp/csharp_repeated_primitive_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_source_generator_base.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_source_generator_base.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2524,7 +2524,7 @@ google/protobuf/compiler/csharp/csharp_names.h
 google/protobuf/compiler/csharp/csharp_options.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_wrapper_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/csharp/csharp_wrapper_field.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -2548,7 +2548,7 @@ google/protobuf/compiler/csharp/csharp_options.h
 google/protobuf/compiler/csharp/csharp_wrapper_field.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_context.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_context.cc
 google/protobuf/compiler/java/java_context.h
 -
 google/protobuf/compiler/java/java_field.h
@@ -2564,7 +2564,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/map_util.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_doc_comment.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_doc_comment.cc
 google/protobuf/compiler/java/java_doc_comment.h
 -
 vector
@@ -2574,7 +2574,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_enum.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_enum.cc
 map
 -
 string
@@ -2596,7 +2596,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_enum_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_enum_field.cc
 map
 -
 string
@@ -2622,7 +2622,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_enum_field_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_enum_field_lite.cc
 map
 -
 string
@@ -2648,7 +2648,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_enum_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_enum_lite.cc
 map
 -
 string
@@ -2670,7 +2670,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_extension.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_extension.cc
 google/protobuf/compiler/java/java_extension.h
 -
 google/protobuf/compiler/java/java_context.h
@@ -2686,7 +2686,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_extension_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_extension_lite.cc
 google/protobuf/compiler/java/java_extension_lite.h
 -
 google/protobuf/compiler/java/java_context.h
@@ -2702,7 +2702,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_field.cc
 google/protobuf/compiler/java/java_field.h
 -
 memory
@@ -2744,7 +2744,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_file.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_file.cc
 google/protobuf/compiler/java/java_file.h
 -
 memory
@@ -2786,7 +2786,7 @@ google/protobuf/dynamic_message.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_generator.cc
 google/protobuf/compiler/java/java_generator.h
 -
 memory
@@ -2814,7 +2814,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_generator_factory.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_generator_factory.cc
 google/protobuf/compiler/java/java_generator_factory.h
 -
 google/protobuf/compiler/java/java_context.h
@@ -2836,7 +2836,7 @@ google/protobuf/compiler/java/java_message_lite.h
 google/protobuf/compiler/java/java_service.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_helpers.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_helpers.cc
 algorithm
 -
 google/protobuf/stubs/hash.h
@@ -2862,7 +2862,7 @@ google/protobuf/stubs/substitute.h
 google/protobuf/stubs/hash.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_lazy_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_lazy_message_field.cc
 google/protobuf/compiler/java/java_context.h
 -
 google/protobuf/compiler/java/java_lazy_message_field.h
@@ -2874,7 +2874,7 @@ google/protobuf/compiler/java/java_helpers.h
 google/protobuf/io/printer.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_lazy_message_field_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_lazy_message_field_lite.cc
 google/protobuf/compiler/java/java_context.h
 -
 google/protobuf/compiler/java/java_lazy_message_field_lite.h
@@ -2886,7 +2886,7 @@ google/protobuf/compiler/java/java_helpers.h
 google/protobuf/io/printer.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_map_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_map_field.cc
 google/protobuf/compiler/java/java_map_field.h
 -
 google/protobuf/compiler/java/java_context.h
@@ -2900,7 +2900,7 @@ google/protobuf/compiler/java/java_name_resolver.h
 google/protobuf/io/printer.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_map_field_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_map_field_lite.cc
 google/protobuf/compiler/java/java_map_field_lite.h
 -
 google/protobuf/compiler/java/java_context.h
@@ -2914,7 +2914,7 @@ google/protobuf/compiler/java/java_name_resolver.h
 google/protobuf/io/printer.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_message.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_message.cc
 google/protobuf/compiler/java/java_message.h
 -
 algorithm
@@ -2960,7 +2960,7 @@ google/protobuf/stubs/substitute.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_message_builder.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_message_builder.cc
 google/protobuf/compiler/java/java_message_builder.h
 -
 algorithm
@@ -3002,7 +3002,7 @@ google/protobuf/stubs/substitute.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_message_builder_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_message_builder_lite.cc
 google/protobuf/compiler/java/java_message_builder_lite.h
 -
 algorithm
@@ -3044,7 +3044,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_message_field.cc
 map
 -
 string
@@ -3066,7 +3066,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_message_field_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_message_field_lite.cc
 map
 -
 string
@@ -3088,7 +3088,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_message_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_message_lite.cc
 google/protobuf/compiler/java/java_message_lite.h
 -
 algorithm
@@ -3134,7 +3134,7 @@ google/protobuf/stubs/substitute.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_name_resolver.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_name_resolver.cc
 google/protobuf/compiler/java/java_name_resolver.h
 -
 map
@@ -3146,7 +3146,7 @@ google/protobuf/compiler/java/java_helpers.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_primitive_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_primitive_field.cc
 map
 -
 string
@@ -3172,7 +3172,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_primitive_field_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_primitive_field_lite.cc
 map
 -
 string
@@ -3198,7 +3198,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_service.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_service.cc
 google/protobuf/compiler/java/java_service.h
 -
 google/protobuf/compiler/java/java_context.h
@@ -3214,7 +3214,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_shared_code_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_shared_code_generator.cc
 google/protobuf/compiler/java/java_shared_code_generator.h
 -
 memory
@@ -3238,7 +3238,7 @@ google/protobuf/descriptor.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_string_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_string_field.cc
 map
 -
 string
@@ -3264,7 +3264,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/java/java_string_field_lite.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/java/java_string_field_lite.cc
 map
 -
 string
@@ -3290,7 +3290,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_enum.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_enum.cc
 map
 -
 string
@@ -3308,7 +3308,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_enum_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_enum_field.cc
 map
 -
 string
@@ -3326,7 +3326,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_extension.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_extension.cc
 google/protobuf/compiler/javanano/javanano_extension.h
 -
 google/protobuf/compiler/javanano/javanano_helpers.h
@@ -3338,7 +3338,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/wire_format.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_field.cc
 google/protobuf/compiler/javanano/javanano_field.h
 -
 google/protobuf/compiler/javanano/javanano_helpers.h
@@ -3354,7 +3354,7 @@ google/protobuf/compiler/javanano/javanano_message_field.h
 google/protobuf/stubs/common.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_file.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_file.cc
 iostream
 -
 google/protobuf/compiler/javanano/javanano_file.h
@@ -3378,7 +3378,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_generator.cc
 google/protobuf/compiler/javanano/javanano_params.h
 -
 google/protobuf/compiler/javanano/javanano_generator.h
@@ -3396,7 +3396,7 @@ google/protobuf/descriptor.pb.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_helpers.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_helpers.cc
 limits
 -
 vector
@@ -3414,7 +3414,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_map_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_map_field.cc
 google/protobuf/compiler/javanano/javanano_map_field.h
 -
 google/protobuf/compiler/javanano/javanano_helpers.h
@@ -3428,7 +3428,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_message.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_message.cc
 algorithm
 -
 google/protobuf/stubs/hash.h
@@ -3452,7 +3452,7 @@ google/protobuf/wire_format.h
 google/protobuf/descriptor.pb.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_message_field.cc
 map
 -
 string
@@ -3468,7 +3468,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_primitive_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/javanano/javanano_primitive_field.cc
 map
 -
 math.h
@@ -3490,7 +3490,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/js/js_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/js/js_generator.cc
 google/protobuf/compiler/js/js_generator.h
 -
 assert.h
@@ -3530,11 +3530,11 @@ google/protobuf/descriptor.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/js/well_known_types_embed.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/js/well_known_types_embed.cc
 google/protobuf/compiler/js/well_known_types_embed.h
-/root/pra/dmprotobuf/src/google/protobuf/compiler/js/google/protobuf/compiler/js/well_known_types_embed.h
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/js/google/protobuf/compiler/js/well_known_types_embed.h
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_enum.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_enum.cc
 map
 -
 string
@@ -3548,7 +3548,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_enum_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_enum_field.cc
 map
 -
 string
@@ -3566,7 +3566,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_extension.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_extension.cc
 iostream
 -
 google/protobuf/compiler/objectivec/objectivec_extension.h
@@ -3580,7 +3580,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/io/printer.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_field.cc
 iostream
 -
 google/protobuf/compiler/objectivec/objectivec_field.h
@@ -3604,7 +3604,7 @@ google/protobuf/stubs/common.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_file.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_file.cc
 google/protobuf/compiler/objectivec/objectivec_file.h
 -
 google/protobuf/compiler/objectivec/objectivec_enum.h
@@ -3630,7 +3630,7 @@ iostream
 sstream
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_generator.cc
 iostream
 -
 google/protobuf/compiler/objectivec/objectivec_generator.h
@@ -3646,7 +3646,7 @@ google/protobuf/io/zero_copy_stream.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_helpers.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_helpers.cc
 unistd.h
 -
 climits
@@ -3684,7 +3684,7 @@ google/protobuf/stubs/io_win32.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_map_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_map_field.cc
 map
 -
 string
@@ -3702,7 +3702,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_message.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_message.cc
 algorithm
 -
 iostream
@@ -3736,7 +3736,7 @@ google/protobuf/wire_format_lite_inl.h
 google/protobuf/descriptor.pb.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_message_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_message_field.cc
 map
 -
 string
@@ -3752,7 +3752,7 @@ google/protobuf/wire_format.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_oneof.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_oneof.cc
 map
 -
 string
@@ -3766,7 +3766,7 @@ google/protobuf/io/printer.h
 google/protobuf/stubs/strutil.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_primitive_field.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/objectivec/objectivec_primitive_field.cc
 map
 -
 string
@@ -3788,7 +3788,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/php/php_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/php/php_generator.cc
 google/protobuf/compiler/php/php_generator.h
 -
 google/protobuf/compiler/code_generator.h
@@ -3808,7 +3808,7 @@ google/protobuf/stubs/strutil.h
 sstream
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/plugin.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/plugin.cc
 google/protobuf/compiler/plugin.h
 -
 iostream
@@ -3834,7 +3834,7 @@ google/protobuf/io/zero_copy_stream_impl.h
 google/protobuf/stubs/io_win32.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/plugin.pb.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/plugin.pb.cc
 google/protobuf/compiler/plugin.pb.h
 -
 algorithm
@@ -3858,9 +3858,9 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 third_party/protobuf/version.h
-/root/pra/dmprotobuf/src/google/protobuf/compiler/third_party/protobuf/version.h
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/third_party/protobuf/version.h
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/python/python_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/python/python_generator.cc
 algorithm
 -
 google/protobuf/stubs/hash.h
@@ -3900,7 +3900,7 @@ google/protobuf/stubs/strutil.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/ruby/ruby_generator.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/ruby/ruby_generator.cc
 sstream
 -
 google/protobuf/compiler/code_generator.h
@@ -3918,7 +3918,7 @@ google/protobuf/io/zero_copy_stream.h
 google/protobuf/compiler/ruby/ruby_generator.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/subprocess.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/subprocess.cc
 google/protobuf/compiler/subprocess.h
 -
 algorithm
@@ -3944,7 +3944,7 @@ google/protobuf/message.h
 google/protobuf/stubs/substitute.h
 -
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/zip_writer.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/zip_writer.cc
 google/protobuf/compiler/zip_writer.h
 -
 google/protobuf/io/coded_stream.h

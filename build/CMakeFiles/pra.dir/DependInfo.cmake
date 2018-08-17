@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/pra/include/dmformat.cc" "/root/pra/build/CMakeFiles/pra.dir/include/dmformat.cc.o"
-  "/root/pra/include/dmostream.cc" "/root/pra/build/CMakeFiles/pra.dir/include/dmostream.cc.o"
-  "/root/pra/include/dmposix.cc" "/root/pra/build/CMakeFiles/pra.dir/include/dmposix.cc.o"
-  "/root/pra/src/test.pb.cc" "/root/pra/build/CMakeFiles/pra.dir/src/test.pb.cc.o"
+  "/root/dmprotobuftest/include/dmformat.cc" "/root/dmprotobuftest/build/CMakeFiles/pra.dir/include/dmformat.cc.o"
+  "/root/dmprotobuftest/include/dmostream.cc" "/root/dmprotobuftest/build/CMakeFiles/pra.dir/include/dmostream.cc.o"
+  "/root/dmprotobuftest/include/dmposix.cc" "/root/dmprotobuftest/build/CMakeFiles/pra.dir/include/dmposix.cc.o"
+  "/root/dmprotobuftest/src/test.pb.cc" "/root/dmprotobuftest/build/CMakeFiles/pra.dir/src/test.pb.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

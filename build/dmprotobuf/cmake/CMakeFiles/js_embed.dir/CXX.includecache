@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/root/pra/dmprotobuf/src/google/protobuf/compiler/js/embed.cc
+/root/dmprotobuftest/dmprotobuf/src/google/protobuf/compiler/js/embed.cc
 cassert
 -
 cstdlib

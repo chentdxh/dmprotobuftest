@@ -22,8 +22,6 @@ int main()
       return -1;
   }
   output.close();
-  cout << msg1.id() << endl;
-  cout << msg1.str() << endl;
   //读文件
   lm::helloworld msg2;
   fstream input("./log", ios::in | ios::binary);
@@ -37,20 +35,19 @@ int main()
       return -1;
   }
   input.close();
-  cout << msg2.id() << endl;
-  cout << msg2.str() << endl;
-  // 写buf, protobuf序列化
-  lm::helloworld msg3;
-  msg3.set_id(2);
-  msg3.set_str("test2");
-  char buf[BUFFSIZE];
-  memset(buf,0,BUFFSIZE);
-  msg3.SerializeToArray(buf,BUFFSIZE);
-  //读buf,protobuf反序列化
-  lm::helloworld msg4;
-  msg4.ParseFromArray(buf, BUFFSIZE);
-  cout << msg4.id() << endl;
-  cout << msg4.str() << endl;
-  google::protobuf::ShutdownProtobufLibrary();
+  for(int i=0;i<100000;i++)
+  {
+   // 写buf, protobuf序列化
+   lm::helloworld msg3;
+   msg3.set_id(2);
+   msg3.set_str("test2");
+   char buf[BUFFSIZE];
+   memset(buf,0,BUFFSIZE);
+   msg3.SerializeToArray(buf,BUFFSIZE);
+   //读buf,protobuf反序列化
+   lm::helloworld msg4;
+   msg4.ParseFromArray(buf, BUFFSIZE);
+   google::protobuf::ShutdownProtobufLibrary();
+  }
   return 0;
 }
